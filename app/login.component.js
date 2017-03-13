@@ -28,6 +28,7 @@ System.register(['angular2/core', './authentication.service'], function(exports_
                     this.errorMsg = '';
                 }
                 LoginComponent.prototype.login = function () {
+                    console.log('cao ja sam tanja');
                     if (!this._service.login(this.user)) {
                         this.errorMsg = 'Failed to login';
                     }

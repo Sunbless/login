@@ -8,7 +8,7 @@ export class User {
 }
 
 var users = [
-  new User('admin@admin.com','adm9'),
+  new User('tanja@tanja.ba','tanja'),
   new User('user1@gmail.com','a23')
 ];
 

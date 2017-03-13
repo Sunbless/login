@@ -44,6 +44,7 @@ export class LoginComponent {
         private _service:AuthenticationService) {}
 
     login() {
+        console.log('cao ja sam tanja')
         if(!this._service.login(this.user)){
             this.errorMsg = 'Failed to login';
         }

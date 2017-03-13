@@ -26,6 +26,7 @@ System.register(['angular2/core', './authentication.service'], function(exports_
                     this._service = _service;
                 }
                 PrivateComponent.prototype.ngOnInit = function () {
+                    console.log('cao ja sam tanja');
                     this._service.checkCredentials();
                 };
                 PrivateComponent.prototype.logout = function () {

@@ -21,6 +21,7 @@ export class PrivateComponent {
         private _service:AuthenticationService){}
 
     ngOnInit(){
+        console.log('cao ja sam tanja')
         this._service.checkCredentials();
     }
 
